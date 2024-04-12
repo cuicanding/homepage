@@ -1,0 +1,442 @@
+2024-04-06 16:21:27,721 DEBUG - Starting WinSW in console mode
+2024-04-06 16:21:30,959 DEBUG - Starting WinSW in console mode
+2024-04-06 16:21:30,980 INFO  - Uninstalling service 'homepage (homepage)'...
+2024-04-06 16:21:30,989 INFO  - Service 'homepage (homepage)' was uninstalled successfully.
+2024-04-06 16:21:32,926 DEBUG - Starting WinSW in console mode
+2024-04-06 16:21:35,872 DEBUG - Starting WinSW in console mode
+2024-04-06 16:21:35,889 INFO  - Installing service 'homepage (homepage)'...
+2024-04-06 16:21:35,904 INFO  - Service 'homepage (homepage)' was installed successfully.
+2024-04-06 16:21:43,414 DEBUG - Starting WinSW in service mode
+2024-04-06 16:21:43,437 INFO  - Starting yarn start
+2024-04-06 16:21:43,453 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   在 WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   在 WinSW.WrapperService.DoStart()
+   在 WinSW.WrapperService.OnStart(String[] args)
+2024-04-06 16:21:52,493 DEBUG - Starting WinSW in service mode
+2024-04-06 16:21:52,518 INFO  - Starting yarn start
+2024-04-06 16:21:52,531 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   在 WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   在 WinSW.WrapperService.DoStart()
+   在 WinSW.WrapperService.OnStart(String[] args)
+2024-04-06 16:22:51,684 DEBUG - Starting WinSW in console mode
+2024-04-06 16:22:54,538 DEBUG - Starting WinSW in console mode
+2024-04-06 16:22:54,558 INFO  - Uninstalling service 'homepage (homepage)'...
+2024-04-06 16:22:54,565 INFO  - Service 'homepage (homepage)' was uninstalled successfully.
+2024-04-06 16:22:56,111 DEBUG - Starting WinSW in console mode
+2024-04-06 16:22:59,100 DEBUG - Starting WinSW in console mode
+2024-04-06 16:22:59,120 INFO  - Installing service 'homepage (homepage)'...
+2024-04-06 16:22:59,126 ERROR - A service with ID 'homepage' already exists.
+2024-04-06 16:22:59,128 FATAL - Failed to install the service. 指定的服务已存在。
+2024-04-06 16:23:11,831 DEBUG - Starting WinSW in console mode
+2024-04-06 16:23:14,526 DEBUG - Starting WinSW in console mode
+2024-04-06 16:23:14,544 INFO  - Uninstalling service 'homepage (homepage)'...
+2024-04-06 16:23:14,550 WARN  - Service 'homepage (homepage)' does not exist.
+2024-04-06 16:23:16,726 DEBUG - Starting WinSW in console mode
+2024-04-06 16:23:19,444 DEBUG - Starting WinSW in console mode
+2024-04-06 16:23:19,462 INFO  - Installing service 'homepage (homepage)'...
+2024-04-06 16:23:19,477 INFO  - Service 'homepage (homepage)' was installed successfully.
+2024-04-06 16:23:26,914 DEBUG - Starting WinSW in service mode
+2024-04-06 16:23:26,940 INFO  - Starting "C:\Program Files\nodejs\yarn.cmd" start
+2024-04-06 16:23:26,953 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (0x80004005): 目录名称无效。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   在 WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   在 WinSW.WrapperService.DoStart()
+   在 WinSW.WrapperService.OnStart(String[] args)
+2024-04-06 16:24:06,689 DEBUG - Starting WinSW in console mode
+2024-04-06 16:24:09,563 DEBUG - Starting WinSW in console mode
+2024-04-06 16:24:09,579 INFO  - Uninstalling service 'homepage (homepage)'...
+2024-04-06 16:24:09,588 INFO  - Service 'homepage (homepage)' was uninstalled successfully.
+2024-04-06 16:24:11,317 DEBUG - Starting WinSW in console mode
+2024-04-06 16:24:14,056 DEBUG - Starting WinSW in console mode
+2024-04-06 16:24:14,074 INFO  - Installing service 'homepage (homepage)'...
+2024-04-06 16:24:14,091 INFO  - Service 'homepage (homepage)' was installed successfully.
+2024-04-06 16:24:21,863 DEBUG - Starting WinSW in service mode
+2024-04-06 16:24:21,886 INFO  - Starting C:\"Program Files"\nodejs\yarn.cmd start
+2024-04-06 16:24:21,900 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (0x80004005): 拒绝访问。
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   在 WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   在 WinSW.WrapperService.DoStart()
+   在 WinSW.WrapperService.OnStart(String[] args)
+2024-04-06 16:25:22,553 DEBUG - Starting WinSW in console mode
+2024-04-06 16:25:25,217 DEBUG - Starting WinSW in console mode
+2024-04-06 16:25:25,234 INFO  - Uninstalling service 'homepage (homepage)'...
+2024-04-06 16:25:25,241 INFO  - Service 'homepage (homepage)' was uninstalled successfully.
+2024-04-06 16:25:26,876 DEBUG - Starting WinSW in console mode
+2024-04-06 16:25:29,801 DEBUG - Starting WinSW in console mode
+2024-04-06 16:25:29,819 INFO  - Installing service 'homepage (homepage)'...
+2024-04-06 16:25:29,837 INFO  - Service 'homepage (homepage)' was installed successfully.
+2024-04-06 16:25:36,773 DEBUG - Starting WinSW in service mode
+2024-04-06 16:25:36,797 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-06 16:25:36,837 INFO  - Started process 109864
+2024-04-06 16:25:36,849 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-06 16:36:26,720 INFO  - Stopping homepage
+2024-04-06 16:36:26,722 DEBUG - ProcessKill 109864
+2024-04-06 16:36:26,742 DEBUG - Found child process 120148.
+2024-04-06 16:36:26,744 DEBUG - Found child process 120740.
+2024-04-06 16:36:26,761 DEBUG - Stopping process 120148...
+2024-04-06 16:36:26,763 DEBUG - Process 120148 terminated.
+2024-04-06 16:36:26,775 DEBUG - Found child process 120708.
+2024-04-06 16:36:26,808 DEBUG - Found child process 103680.
+2024-04-06 16:36:26,838 DEBUG - Found child process 117944.
+2024-04-06 16:36:26,860 DEBUG - Stopping process 117944...
+2024-04-06 16:36:26,861 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 16:36:26,863 DEBUG - Process 117944 terminated.
+2024-04-06 16:36:26,864 DEBUG - Stopping process 103680...
+2024-04-06 16:36:26,864 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 16:36:26,871 DEBUG - Process 103680 terminated.
+2024-04-06 16:36:26,877 DEBUG - Stopping process 120708...
+2024-04-06 16:36:26,878 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 16:36:26,879 DEBUG - Process 120708 terminated.
+2024-04-06 16:36:26,879 DEBUG - Stopping process 120740...
+2024-04-06 16:36:26,880 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 16:36:26,880 DEBUG - Process 120740 terminated.
+2024-04-06 16:36:26,881 DEBUG - Stopping process 109864...
+2024-04-06 16:36:26,885 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 16:36:26,887 DEBUG - Process 109864 terminated.
+2024-04-06 16:36:26,889 INFO  - Finished homepage
+2024-04-06 16:49:52,070 DEBUG - Starting WinSW in service mode
+2024-04-06 16:49:52,094 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-06 16:49:52,137 INFO  - Started process 129420
+2024-04-06 16:49:52,152 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-06 16:53:00,071 INFO  - Stopping homepage
+2024-04-06 16:53:00,072 DEBUG - ProcessKill 129420
+2024-04-06 16:53:00,088 DEBUG - Found child process 127340.
+2024-04-06 16:53:00,090 DEBUG - Found child process 129188.
+2024-04-06 16:53:00,100 DEBUG - Found child process 129288.
+2024-04-06 16:53:00,115 DEBUG - Found child process 129728.
+2024-04-06 16:53:00,125 DEBUG - Found child process 129740.
+2024-04-06 16:53:00,137 DEBUG - Stopping process 129740...
+2024-04-06 16:53:00,163 DEBUG - Process 129740 canceled with code 0.
+2024-04-06 16:53:00,164 DEBUG - Stopping process 129728...
+2024-04-06 16:53:00,165 DEBUG - Process 129728 has already exited.
+2024-04-06 16:53:00,166 DEBUG - Stopping process 129288...
+2024-04-06 16:53:00,166 DEBUG - Process 129288 has already exited.
+2024-04-06 16:53:00,166 DEBUG - Stopping process 127340...
+2024-04-06 16:53:00,167 DEBUG - Process 127340 has already exited.
+2024-04-06 16:53:00,179 DEBUG - Stopping process 129188...
+2024-04-06 16:53:00,180 DEBUG - Process 129188 terminated.
+2024-04-06 16:53:00,181 DEBUG - Stopping process 129420...
+2024-04-06 16:53:00,186 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 16:53:00,189 DEBUG - Process 129420 terminated.
+2024-04-06 16:53:00,190 INFO  - Finished homepage
+2024-04-06 16:54:17,971 DEBUG - Starting WinSW in service mode
+2024-04-06 16:54:17,994 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-06 16:54:18,045 INFO  - Started process 128604
+2024-04-06 16:54:18,057 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-06 21:43:11,521 INFO  - Stopping homepage
+2024-04-06 21:43:11,528 DEBUG - ProcessKill 128604
+2024-04-06 21:43:11,557 DEBUG - Found child process 116976.
+2024-04-06 21:43:11,559 DEBUG - Found child process 110516.
+2024-04-06 21:43:11,581 DEBUG - Stopping process 116976...
+2024-04-06 21:43:11,583 DEBUG - Process 116976 terminated.
+2024-04-06 21:43:11,603 DEBUG - Found child process 130020.
+2024-04-06 21:43:11,622 DEBUG - Found child process 129796.
+2024-04-06 21:43:11,639 DEBUG - Found child process 125232.
+2024-04-06 21:43:11,657 DEBUG - Stopping process 125232...
+2024-04-06 21:43:11,658 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 21:43:11,660 DEBUG - Process 125232 terminated.
+2024-04-06 21:43:11,660 DEBUG - Stopping process 129796...
+2024-04-06 21:43:11,660 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 21:43:11,661 DEBUG - Process 129796 terminated.
+2024-04-06 21:43:11,662 DEBUG - Stopping process 130020...
+2024-04-06 21:43:11,662 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 21:43:11,663 DEBUG - Process 130020 terminated.
+2024-04-06 21:43:11,664 DEBUG - Stopping process 110516...
+2024-04-06 21:43:11,665 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 21:43:11,666 DEBUG - Process 110516 terminated.
+2024-04-06 21:43:11,666 DEBUG - Stopping process 128604...
+2024-04-06 21:43:11,666 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-06 21:43:11,667 DEBUG - Process 128604 terminated.
+2024-04-06 21:43:11,668 INFO  - Finished homepage
+2024-04-06 21:48:32,052 DEBUG - Starting WinSW in service mode
+2024-04-06 21:48:32,126 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-06 21:48:32,212 INFO  - Started process 259312
+2024-04-06 21:48:32,237 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-07 01:35:31,567 INFO  - Stopping homepage
+2024-04-07 01:35:31,568 DEBUG - ProcessKill 259312
+2024-04-07 01:35:31,635 DEBUG - Found child process 263740.
+2024-04-07 01:35:31,636 DEBUG - Found child process 268184.
+2024-04-07 01:35:32,050 DEBUG - Stopping process 263740...
+2024-04-07 01:35:32,055 DEBUG - Process 263740 terminated.
+2024-04-07 01:35:32,080 DEBUG - Found child process 268340.
+2024-04-07 01:35:32,350 DEBUG - Found child process 268420.
+2024-04-07 01:35:32,472 DEBUG - Found child process 268448.
+2024-04-07 01:35:32,640 DEBUG - Stopping process 268448...
+2024-04-07 01:35:32,641 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 01:35:32,648 DEBUG - Process 268448 terminated.
+2024-04-07 01:35:32,649 DEBUG - Stopping process 268420...
+2024-04-07 01:35:32,649 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 01:35:32,650 DEBUG - Process 268420 terminated.
+2024-04-07 01:35:32,652 DEBUG - Stopping process 268340...
+2024-04-07 01:35:32,652 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 01:35:32,653 DEBUG - Process 268340 terminated.
+2024-04-07 01:35:32,655 DEBUG - Stopping process 268184...
+2024-04-07 01:35:32,655 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 01:35:32,655 DEBUG - Process 268184 terminated.
+2024-04-07 01:35:32,656 DEBUG - Stopping process 259312...
+2024-04-07 01:35:32,660 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 01:35:32,661 DEBUG - Process 259312 terminated.
+2024-04-07 01:35:32,663 INFO  - Finished homepage
+2024-04-07 01:39:55,248 DEBUG - Starting WinSW in service mode
+2024-04-07 01:39:55,271 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-07 01:39:55,330 INFO  - Started process 360792
+2024-04-07 01:39:55,357 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-07 11:26:13,100 INFO  - Stopping homepage
+2024-04-07 11:26:13,102 DEBUG - ProcessKill 360792
+2024-04-07 11:26:13,144 DEBUG - Found child process 361108.
+2024-04-07 11:26:13,144 DEBUG - Found child process 361012.
+2024-04-07 11:26:13,502 DEBUG - Stopping process 361108...
+2024-04-07 11:26:13,505 DEBUG - Process 361108 terminated.
+2024-04-07 11:26:13,542 DEBUG - Found child process 361052.
+2024-04-07 11:26:13,725 DEBUG - Found child process 360964.
+2024-04-07 11:26:14,067 DEBUG - Found child process 361236.
+2024-04-07 11:26:14,252 DEBUG - Stopping process 361236...
+2024-04-07 11:26:14,253 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 11:26:14,257 DEBUG - Process 361236 terminated.
+2024-04-07 11:26:14,257 DEBUG - Stopping process 360964...
+2024-04-07 11:26:14,261 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 11:26:14,262 DEBUG - Process 360964 terminated.
+2024-04-07 11:26:14,263 DEBUG - Stopping process 361052...
+2024-04-07 11:26:14,263 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 11:26:14,265 DEBUG - Process 361052 terminated.
+2024-04-07 11:26:14,266 DEBUG - Stopping process 361012...
+2024-04-07 11:26:14,268 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 11:26:14,269 DEBUG - Process 361012 terminated.
+2024-04-07 11:26:14,270 DEBUG - Stopping process 360792...
+2024-04-07 11:26:14,272 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 11:26:14,273 DEBUG - Process 360792 terminated.
+2024-04-07 11:26:14,276 INFO  - Finished homepage
+2024-04-07 12:32:58,467 DEBUG - Starting WinSW in service mode
+2024-04-07 12:32:58,640 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-07 12:32:58,689 INFO  - Started process 5628
+2024-04-07 12:32:58,689 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-07 20:39:17,765 INFO  - Stopping homepage
+2024-04-07 20:39:17,765 DEBUG - ProcessKill 5628
+2024-04-07 20:39:17,874 DEBUG - Found child process 6416.
+2024-04-07 20:39:17,899 DEBUG - Found child process 5712.
+2024-04-07 20:39:18,071 DEBUG - Found child process 6892.
+2024-04-07 20:39:18,198 DEBUG - Found child process 2384.
+2024-04-07 20:39:18,420 DEBUG - Found child process 7300.
+2024-04-07 20:39:18,560 DEBUG - Stopping process 7300...
+2024-04-07 20:39:18,596 DEBUG - Process 7300 canceled with code 0.
+2024-04-07 20:39:18,597 DEBUG - Stopping process 2384...
+2024-04-07 20:39:18,597 DEBUG - Process 2384 has already exited.
+2024-04-07 20:39:18,598 DEBUG - Stopping process 6892...
+2024-04-07 20:39:18,598 DEBUG - Process 6892 has already exited.
+2024-04-07 20:39:18,598 DEBUG - Stopping process 6416...
+2024-04-07 20:39:18,599 DEBUG - Process 6416 has already exited.
+2024-04-07 20:39:18,716 DEBUG - Stopping process 5712...
+2024-04-07 20:39:18,717 DEBUG - Process 5712 terminated.
+2024-04-07 20:39:18,717 DEBUG - Stopping process 5628...
+2024-04-07 20:39:18,721 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-07 20:39:18,723 DEBUG - Process 5628 terminated.
+2024-04-07 20:39:18,724 INFO  - Finished homepage
+2024-04-07 20:39:19,323 DEBUG - Starting WinSW in service mode
+2024-04-07 20:39:19,348 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-07 20:39:19,419 INFO  - Started process 9152
+2024-04-07 20:39:19,434 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-08 12:53:05,713 INFO  - Stopping homepage
+2024-04-08 12:53:05,713 DEBUG - ProcessKill 9152
+2024-04-08 12:53:05,864 DEBUG - Found child process 112752.
+2024-04-08 12:53:06,036 DEBUG - Found child process 8308.
+2024-04-08 12:53:06,317 DEBUG - Stopping process 112752...
+2024-04-08 12:53:06,317 DEBUG - Process 112752 terminated.
+2024-04-08 12:53:06,427 DEBUG - Found child process 119520.
+2024-04-08 12:53:06,442 DEBUG - Found child process 114676.
+2024-04-08 12:53:06,583 DEBUG - Found child process 121828.
+2024-04-08 12:53:06,630 DEBUG - Stopping process 121828...
+2024-04-08 12:53:06,630 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 12:53:06,661 DEBUG - Process 121828 terminated.
+2024-04-08 12:53:06,661 DEBUG - Stopping process 114676...
+2024-04-08 12:53:06,661 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 12:53:06,661 DEBUG - Process 114676 terminated.
+2024-04-08 12:53:06,661 DEBUG - Stopping process 119520...
+2024-04-08 12:53:06,661 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 12:53:06,661 DEBUG - Process 119520 terminated.
+2024-04-08 12:53:06,661 DEBUG - Stopping process 8308...
+2024-04-08 12:53:06,661 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 12:53:06,661 DEBUG - Process 8308 terminated.
+2024-04-08 12:53:06,661 DEBUG - Stopping process 9152...
+2024-04-08 12:53:06,661 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 12:53:06,661 DEBUG - Process 9152 terminated.
+2024-04-08 12:53:06,661 INFO  - Finished homepage
+2024-04-08 12:53:39,266 DEBUG - Starting WinSW in service mode
+2024-04-08 12:53:39,456 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-08 12:53:39,566 INFO  - Started process 5788
+2024-04-08 12:53:39,566 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-08 13:32:01,339 INFO  - Stopping homepage
+2024-04-08 13:32:01,339 DEBUG - ProcessKill 5788
+2024-04-08 13:32:01,355 DEBUG - Found child process 5996.
+2024-04-08 13:32:01,355 DEBUG - Found child process 6972.
+2024-04-08 13:32:01,355 DEBUG - Stopping process 5996...
+2024-04-08 13:32:01,371 DEBUG - Process 5996 terminated.
+2024-04-08 13:32:01,402 DEBUG - Found child process 3068.
+2024-04-08 13:32:01,417 DEBUG - Found child process 7280.
+2024-04-08 13:32:01,417 DEBUG - Found child process 7392.
+2024-04-08 13:32:01,417 DEBUG - Stopping process 7392...
+2024-04-08 13:32:01,417 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 13:32:01,449 DEBUG - Process 7392 terminated.
+2024-04-08 13:32:01,449 DEBUG - Stopping process 7280...
+2024-04-08 13:32:01,449 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 13:32:01,449 DEBUG - Process 7280 terminated.
+2024-04-08 13:32:01,449 DEBUG - Stopping process 3068...
+2024-04-08 13:32:01,449 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 13:32:01,480 DEBUG - Process 3068 terminated.
+2024-04-08 13:32:01,480 DEBUG - Stopping process 6972...
+2024-04-08 13:32:01,480 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 13:32:01,511 DEBUG - Process 6972 terminated.
+2024-04-08 13:32:01,511 DEBUG - Stopping process 5788...
+2024-04-08 13:32:01,527 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-08 13:32:01,542 DEBUG - Process 5788 terminated.
+2024-04-08 13:32:01,542 INFO  - Finished homepage
+2024-04-08 13:32:38,832 DEBUG - Starting WinSW in service mode
+2024-04-08 13:32:38,958 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-08 13:32:39,036 INFO  - Started process 5468
+2024-04-08 13:32:39,036 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-09 09:09:39,348 INFO  - Stopping homepage
+2024-04-09 09:09:39,353 DEBUG - ProcessKill 5468
+2024-04-09 09:09:39,668 DEBUG - Found child process 6620.
+2024-04-09 09:09:39,973 DEBUG - Found child process 5604.
+2024-04-09 09:09:40,296 DEBUG - Found child process 6940.
+2024-04-09 09:09:40,871 DEBUG - Found child process 2644.
+2024-04-09 09:09:41,382 DEBUG - Found child process 6132.
+2024-04-09 09:09:42,133 DEBUG - Stopping process 6132...
+2024-04-09 09:09:42,374 DEBUG - Process 6132 canceled with code 0.
+2024-04-09 09:09:42,375 DEBUG - Stopping process 2644...
+2024-04-09 09:09:42,375 DEBUG - Process 2644 has already exited.
+2024-04-09 09:09:42,375 DEBUG - Stopping process 6940...
+2024-04-09 09:09:42,375 DEBUG - Process 6940 has already exited.
+2024-04-09 09:09:42,376 DEBUG - Stopping process 6620...
+2024-04-09 09:09:42,376 DEBUG - Process 6620 has already exited.
+2024-04-09 09:09:42,898 DEBUG - Stopping process 5604...
+2024-04-09 09:09:42,902 DEBUG - Process 5604 terminated.
+2024-04-09 09:09:42,902 DEBUG - Stopping process 5468...
+2024-04-09 09:09:42,910 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 09:09:42,914 DEBUG - Process 5468 terminated.
+2024-04-09 09:09:42,916 INFO  - Finished homepage
+2024-04-09 13:03:29,385 DEBUG - Starting WinSW in service mode
+2024-04-09 13:03:29,512 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-09 13:03:29,608 INFO  - Started process 5992
+2024-04-09 13:03:29,608 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-09 14:19:59,542 INFO  - Stopping homepage
+2024-04-09 14:19:59,542 DEBUG - ProcessKill 5992
+2024-04-09 14:19:59,573 DEBUG - Found child process 5388.
+2024-04-09 14:19:59,573 DEBUG - Found child process 6996.
+2024-04-09 14:19:59,589 DEBUG - Stopping process 5388...
+2024-04-09 14:19:59,605 DEBUG - Process 5388 terminated.
+2024-04-09 14:19:59,605 DEBUG - Found child process 6544.
+2024-04-09 14:19:59,605 DEBUG - Found child process 7424.
+2024-04-09 14:19:59,636 DEBUG - Found child process 7532.
+2024-04-09 14:19:59,667 DEBUG - Stopping process 7532...
+2024-04-09 14:19:59,683 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:19:59,683 DEBUG - Process 7532 terminated.
+2024-04-09 14:19:59,683 DEBUG - Stopping process 7424...
+2024-04-09 14:19:59,683 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:19:59,698 DEBUG - Process 7424 terminated.
+2024-04-09 14:19:59,698 DEBUG - Stopping process 6544...
+2024-04-09 14:19:59,698 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:19:59,714 DEBUG - Process 6544 terminated.
+2024-04-09 14:19:59,714 DEBUG - Stopping process 6996...
+2024-04-09 14:19:59,714 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:19:59,714 DEBUG - Process 6996 terminated.
+2024-04-09 14:19:59,714 DEBUG - Stopping process 5992...
+2024-04-09 14:19:59,714 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:19:59,714 DEBUG - Process 5992 terminated.
+2024-04-09 14:19:59,714 INFO  - Finished homepage
+2024-04-09 14:20:35,081 DEBUG - Starting WinSW in service mode
+2024-04-09 14:20:35,237 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-09 14:20:35,321 INFO  - Started process 5392
+2024-04-09 14:20:35,321 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-09 14:28:46,063 INFO  - Stopping homepage
+2024-04-09 14:28:46,063 DEBUG - ProcessKill 5392
+2024-04-09 14:28:46,110 DEBUG - Found child process 5536.
+2024-04-09 14:28:46,126 DEBUG - Found child process 6504.
+2024-04-09 14:28:46,126 DEBUG - Stopping process 5536...
+2024-04-09 14:28:46,142 DEBUG - Process 5536 terminated.
+2024-04-09 14:28:46,142 DEBUG - Found child process 6748.
+2024-04-09 14:28:46,142 DEBUG - Found child process 7144.
+2024-04-09 14:28:46,157 DEBUG - Found child process 6588.
+2024-04-09 14:28:46,173 DEBUG - Stopping process 6588...
+2024-04-09 14:28:46,173 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:28:46,173 DEBUG - Process 6588 terminated.
+2024-04-09 14:28:46,173 DEBUG - Stopping process 7144...
+2024-04-09 14:28:46,173 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:28:46,173 DEBUG - Process 7144 terminated.
+2024-04-09 14:28:46,173 DEBUG - Stopping process 6748...
+2024-04-09 14:28:46,173 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:28:46,189 DEBUG - Process 6748 terminated.
+2024-04-09 14:28:46,189 DEBUG - Stopping process 6504...
+2024-04-09 14:28:46,189 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:28:46,204 DEBUG - Process 6504 terminated.
+2024-04-09 14:28:46,204 DEBUG - Stopping process 5392...
+2024-04-09 14:28:46,204 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 14:28:46,251 DEBUG - Process 5392 terminated.
+2024-04-09 14:28:46,251 INFO  - Finished homepage
+2024-04-09 14:29:20,011 DEBUG - Starting WinSW in service mode
+2024-04-09 14:29:20,339 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-09 14:29:20,449 INFO  - Started process 5428
+2024-04-09 14:29:20,449 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-09 15:13:40,151 INFO  - Stopping homepage
+2024-04-09 15:13:40,167 DEBUG - ProcessKill 5428
+2024-04-09 15:13:40,230 DEBUG - Found child process 6548.
+2024-04-09 15:13:40,230 DEBUG - Found child process 5612.
+2024-04-09 15:13:40,230 DEBUG - Found child process 6836.
+2024-04-09 15:13:40,230 DEBUG - Found child process 5116.
+2024-04-09 15:13:40,245 DEBUG - Found child process 5424.
+2024-04-09 15:13:40,276 DEBUG - Stopping process 5424...
+2024-04-09 15:13:40,386 DEBUG - Process 5424 canceled with code 0.
+2024-04-09 15:13:40,386 DEBUG - Stopping process 5116...
+2024-04-09 15:13:40,386 DEBUG - Process 5116 has already exited.
+2024-04-09 15:13:40,386 DEBUG - Stopping process 6836...
+2024-04-09 15:13:40,386 DEBUG - Process 6836 has already exited.
+2024-04-09 15:13:40,386 DEBUG - Stopping process 6548...
+2024-04-09 15:13:40,401 DEBUG - Process 6548 canceled with code -1073741510.
+2024-04-09 15:13:40,417 DEBUG - Stopping process 5612...
+2024-04-09 15:13:40,417 DEBUG - Process 5612 terminated.
+2024-04-09 15:13:40,417 DEBUG - Stopping process 5428...
+2024-04-09 15:13:40,417 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 15:13:40,417 DEBUG - Process 5428 terminated.
+2024-04-09 15:13:40,417 INFO  - Finished homepage
+2024-04-09 15:14:14,650 DEBUG - Starting WinSW in service mode
+2024-04-09 15:14:14,818 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-09 15:14:14,985 INFO  - Started process 5848
+2024-04-09 15:14:14,990 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-09 17:00:33,918 INFO  - Stopping homepage
+2024-04-09 17:00:33,920 DEBUG - ProcessKill 5848
+2024-04-09 17:00:33,972 DEBUG - Found child process 6320.
+2024-04-09 17:00:33,988 DEBUG - Found child process 7068.
+2024-04-09 17:00:34,035 DEBUG - Stopping process 6320...
+2024-04-09 17:00:34,041 DEBUG - Process 6320 terminated.
+2024-04-09 17:00:34,076 DEBUG - Found child process 7400.
+2024-04-09 17:00:34,112 DEBUG - Found child process 7768.
+2024-04-09 17:00:34,147 DEBUG - Found child process 7800.
+2024-04-09 17:00:34,193 DEBUG - Stopping process 7800...
+2024-04-09 17:00:34,194 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 17:00:34,197 DEBUG - Process 7800 terminated.
+2024-04-09 17:00:34,198 DEBUG - Stopping process 7768...
+2024-04-09 17:00:34,198 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 17:00:34,199 DEBUG - Process 7768 terminated.
+2024-04-09 17:00:34,199 DEBUG - Stopping process 7400...
+2024-04-09 17:00:34,199 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 17:00:34,200 DEBUG - Process 7400 terminated.
+2024-04-09 17:00:34,200 DEBUG - Stopping process 7068...
+2024-04-09 17:00:34,201 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 17:00:34,202 DEBUG - Process 7068 terminated.
+2024-04-09 17:00:34,203 DEBUG - Stopping process 5848...
+2024-04-09 17:00:34,205 WARN  - Failed to attach to console. 管道的另一端上无任何进程。
+2024-04-09 17:00:34,206 DEBUG - Process 5848 terminated.
+2024-04-09 17:00:34,207 INFO  - Finished homepage
+2024-04-09 17:00:36,044 DEBUG - Starting WinSW in service mode
+2024-04-09 17:00:36,224 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-09 17:00:36,314 INFO  - Started process 33996
+2024-04-09 17:00:36,329 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender

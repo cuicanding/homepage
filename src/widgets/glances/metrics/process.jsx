@@ -18,6 +18,7 @@ const statusMap = {
 };
 
 const defaultInterval = 1000;
+let cache=false;
 
 export default function Component({ service }) {
   const { t } = useTranslation();
@@ -26,26 +27,38 @@ export default function Component({ service }) {
 
   const memoryInfoKey = version === 3 ? 0 : "data";
 
-  const { data, error } = useWidgetAPI(service.widget, `${version}/processlist`, {
+  let { data, error } = useWidgetAPI(service.widget, `${version}/processlist`, {
     refreshInterval: Math.max(defaultInterval, refreshInterval),
   });
 
   if (error) {
-    return (
-      <Container chart={chart}>
-        <Error error={error} />
-      </Container>
-    );
+      //   return (
+      // <Container chart={chart}>
+      //   <Block position="bottom-3 left-3"></Block>
+      // </Container>
+    if(cache){
+    data=cache;
+  }else{
+    return (<Container chart={chart}>
+        <Block position="bottom-3 left-3"></Block>
+      </Container>)
+  }
+    // return (
+    //   <Container chart={chart}>
+    //     <Error error={error} />
+    //   </Container>
+    // );
   }
 
   if (!data) {
     return (
       <Container chart={chart}>
-        <Block position="bottom-3 left-3">-</Block>
+        <Block position="bottom-3 left-3"></Block>
       </Container>
     );
   }
 
+  cache=data;
   data.splice(chart ? 5 : 1);
 
   return (

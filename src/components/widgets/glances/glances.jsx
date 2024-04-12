@@ -18,24 +18,20 @@ function convertToFahrenheit(t) {
   return (t * 9) / 5 + 32;
 }
 
+let cache;
 export default function Widget({ options }) {
   const { t, i18n } = useTranslation();
   const { settings } = useContext(SettingsContext);
   const diskUnits = options.diskUnits === "bbytes" ? "common.bbytes" : "common.bytes";
 
-  const { data, error } = useSWR(
+  let { data, error } = useSWR(
     `/api/widgets/glances?${new URLSearchParams({ lang: i18n.language, ...options }).toString()}`,
     {
       refreshInterval: 1500,
     },
   );
 
-  if (error || data?.error) {
-    return <Error options={options} />;
-  }
-
-  if (!data) {
-    return (
+  const waitComp = (
       <Resources options={options} additionalClassNames="information-widget-glances">
         {options.cpu !== false && <Resource icon={FiCpu} label={t("glances.wait")} percentage="0" />}
         {options.mem !== false && <Resource icon={FaMemory} label={t("glances.wait")} percentage="0" />}
@@ -52,7 +48,21 @@ export default function Widget({ options }) {
         {options.label && <WidgetLabel label={options.label} />}
       </Resources>
     );
+
+
+  if (error || data?.error) {
+    if(cache){
+      data=cache;
+    }else{
+      return waitComp;
+    }
   }
+
+  if (!data) {
+    return waitComp;
+  }
+
+  cache=data;
 
   const unit = options.units === "imperial" ? "fahrenheit" : "celsius";
   let mainTemp = 0;

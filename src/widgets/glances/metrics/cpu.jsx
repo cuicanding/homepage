@@ -12,6 +12,7 @@ const Chart = dynamic(() => import("../components/chart"), { ssr: false });
 
 const defaultPointsLimit = 15;
 const defaultInterval = 1000;
+  let cache=false;
 
 export default function Component({ service }) {
   const { t } = useTranslation();
@@ -20,12 +21,11 @@ export default function Component({ service }) {
 
   const [dataPoints, setDataPoints] = useState(new Array(pointsLimit).fill({ value: 0 }, 0, pointsLimit));
 
-  const { data, error } = useWidgetAPI(service.widget, `${version}/cpu`, {
+  let { data, error } = useWidgetAPI(service.widget, `${version}/cpu`, {
     refreshInterval: Math.max(defaultInterval, refreshInterval),
   });
 
   const { data: quicklookData, error: quicklookError } = useWidgetAPI(service.widget, `${version}/quicklook`);
-
   useEffect(() => {
     if (data) {
       setDataPoints((prevDataPoints) => {
@@ -39,20 +39,26 @@ export default function Component({ service }) {
   }, [data, pointsLimit]);
 
   if (error) {
-    return (
-      <Container chart={chart}>
-        <Error error={error} />
-      </Container>
-    );
-  }
+    if(cache){
+      data=cache;
+    }else{
+   return (
+        <Container chart={chart}>
+          <Block position="bottom-3 left-3"></Block>
+        </Container>
+      );
+ }
+}
+  
 
   if (!data) {
     return (
       <Container chart={chart}>
-        <Block position="bottom-3 left-3">-</Block>
+        <Block position="bottom-3 left-3"></Block>
       </Container>
     );
   }
+  cache=data;
 
   return (
     <Container chart={chart}>
