@@ -1,0 +1,23 @@
+<service>
+  <id>homepage</id>
+  <name>homepage</name>
+  <description>homepage</description>
+
+  <!-- <workingdirectory>D:\"Program Files"\homepage</workingdirectory> -->
+  <executable>%BASE%\run.bat</executable>
+  <arguments></arguments>
+
+  <logmode>rotate</logmode>
+  <priority>Normal</priority>
+  <stoptimeout>45 sec</stoptimeout>
+  <stopparentprocessfirst>false</stopparentprocessfirst>
+  <startmode>Automatic</startmode>
+
+   <!--
+    <depend>Eventlog</depend>
+    <depend>W32Time</depend>
+    -->
+  <logpath>%BASE%\logs</logpath>
+  <waithint>60 sec</waithint>
+  <sleeptime>10 sec</sleeptime>
+</service>
