@@ -18,13 +18,15 @@ export default function validateWidgetData(widget, endpoint, data) {
   if (dataParsed && Object.entries(dataParsed).length) {
     const mappings = widgets[widget.type]?.mappings;
     if (mappings) {
-      mapping = Object.values(mappings).find((m) => m.endpoint === endpoint);
+      const fun = Object.values(mappings);
+      if (fun && fun.find && typeof fun.find === "function") {
+      mapping = fun.find((m) => m.endpoint === endpoint);
       mapping?.validate?.forEach((key) => {
         if (dataParsed[key] === undefined) {
           valid = false;
         }
       });
-    }
+    }}
   }
 
   if (!valid) {

@@ -13,7 +13,10 @@
       {
         "newlines-between": "always"
       }
-    ]
+    ],
+    "no-unused-vars":[0],
+    "prefer-const":[0],
+    "react/self-closing-comp":[0]
   },
   "settings": {
     "import/resolver": {

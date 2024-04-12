@@ -12,8 +12,9 @@ const ChartDual = dynamic(() => import("../components/chart_dual"), { ssr: false
 
 const defaultPointsLimit = 15;
 const defaultInterval = (isChart) => (isChart ? 1000 : 5000);
-
+let cache = null;
 export default function Component({ service }) {
+
   const { t } = useTranslation();
   const { widget } = service;
   const { chart, metric } = widget;
@@ -26,12 +27,12 @@ export default function Component({ service }) {
 
   const [dataPoints, setDataPoints] = useState(new Array(pointsLimit).fill({ value: 0 }, 0, pointsLimit));
 
-  const { data, error } = useWidgetAPI(widget, `${version}/network`, {
+  let { data, error } = useWidgetAPI(widget, `${version}/network`, {
     refreshInterval: Math.max(defaultInterval(chart), refreshInterval),
   });
 
   useEffect(() => {
-    if (data) {
+    if (data && typeof data.find === 'function') {
       const interfaceData = data.find((item) => item[item.key] === interfaceName);
 
       if (interfaceData) {
@@ -53,30 +54,38 @@ export default function Component({ service }) {
   }, [data, interfaceName, pointsLimit, rxKey, txKey]);
 
   if (error) {
+    if(cache){    
+      data=cache;
+    }else{
     return (
-      <Container chart={chart}>
-        <Error error={error} />
-      </Container>
-    );
+          <Container chart={chart}>
+            <Block position="bottom-3 left-3"></Block>
+          </Container>
+        );
+    }
   }
 
   if (!data) {
     return (
       <Container chart={chart}>
-        <Block position="bottom-3 left-3">-</Block>
+        <Block position="bottom-3 left-3"></Block>
       </Container>
     );
   }
 
-  const interfaceData = data.find((item) => item[item.key] === interfaceName);
+  let interfaceData;
+  if(typeof data.find === 'function'){
+   interfaceData = data.find((item) => item[item.key] === interfaceName);
+  }
 
   if (!interfaceData) {
     return (
       <Container chart={chart}>
-        <Block position="bottom-3 left-3">-</Block>
+        <Block position="bottom-3 left-3"></Block>
       </Container>
     );
   }
+  cache=data;
 
   return (
     <Container chart={chart}>
