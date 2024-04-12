@@ -7,7 +7,7 @@
         href: http://localhost/
         description: Homepage is awesome
 - 系统监控:
-    - 基础信息:
+    - CPU:
         widget:
           version: 4 # required only if running glances v4 or higher, defaults to 3
           refreshInterval: 3000 # optional - in milliseconds, defaults to 1000 or more, depending on the metric
@@ -29,13 +29,6 @@
           type: glances
           url: http://127.0.0.1:61208
           metric: disk:PhysicalDrive5
-    - 进程列表:
-        widget:
-          version: 4 # required only if running glances v4 or higher, defaults to 3
-          refreshInterval: 3000 # optional - in milliseconds, defaults to 1000 or more, depending on the metric
-          type: glances
-          url: http://127.0.0.1:61208
-          metric: process
 
 
 - 集成服务:
