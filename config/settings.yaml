@@ -3,7 +3,7 @@
 # https://gethomepage.dev/latest/configs/settings
 
 title: Sunshine
-favicon: https://coralcentury.cn:8888/favicon.ico
+favicon: https://coralcentury.cn:8888/favicon.png
 theme: dark # or light
 language: zh-CN
 
