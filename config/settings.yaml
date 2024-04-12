@@ -7,6 +7,7 @@ favicon: https://coralcentury.cn:8888/favicon.png
 theme: dark # or light
 language: zh-CN
 
+background: https://dailybing.com/thumb/zh-cn/1920/0/OHR.SunsetArchesNP_ZH-CN9875945974_UHD.jpg
 
 #providers:
 #  openweathermap: openweathermapapikey
