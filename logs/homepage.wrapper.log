@@ -440,3 +440,7 @@ System.ComponentModel.Win32Exception (0x80004005): ¾Ü¾ø·ÃÎÊ¡£
 2024-04-09 17:00:36,224 INFO  - Starting D:\Program Files\homepage\run.bat 
 2024-04-09 17:00:36,314 INFO  - Started process 33996
 2024-04-09 17:00:36,329 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
+2024-04-12 14:23:58,672 DEBUG - Starting WinSW in service mode
+2024-04-12 14:23:58,846 INFO  - Starting D:\Program Files\homepage\run.bat 
+2024-04-12 14:23:58,924 INFO  - Started process 236936
+2024-04-12 14:23:58,957 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.SizeBasedRollingLogAppender
